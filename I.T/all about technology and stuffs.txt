@@ -1,0 +1,113 @@
+My common observation of being (studying, trying to be a web developer and I'm excited because it's my interview later at 1pm hope I won't be late and finally have
+this oppurtinity to have a work finally, sorry if it's too long HAHA)
+a web developer
+
+1. I noticed that a single or even I think a bunch of a line of a code can ruin the entirety of the code itself :( always remind and refresh what you had done first to
+ why it was ruined XD :((
+- I wasn't hired as a web developer because of what she said that my CV was weak but the job description says that they need a fresh graduate students. They didn't say
+that it is with skills. I think about it when she was interviewing me but I don't mind saying it to her. I'm sad (slightly sad) because I wasn't able to work with
+them but it's alright because I know at some point in my life that there is another breakthrough and opportunity that will take place, everything happens for a
+reason :)
+
+2. When making a flowchart just remember that follow the line and into the next line to provide reason and logic.
+
+3. You can also develop your own libraries (called
+packages in Java). (Note that in Java, typically, a package is a set of related
+classes. So, typically, a Java program is a collection of classes.
+
+4. mathematics = decimal system or base 10
+   computer = binary or base 2
+
+5. Assembly Language is a written code while Machine Language consists of binary in 1s and 0s. Without the Assembly Language translating the Machine Language, the
+layout of the code could've been in 1s and 0s (Machine Language).
+
+6. Applications are programs that run on your computer and Java Applets are sub part of the Applications (for me) or Java applets are programs that run from a Web browser and make
+the Web responsive and interactive.
+
+Note that the Java interpreter translates and executes one bytecode instruction at a time.It does not first translate the entire bytecode into your computer’s machine
+language. As noted earlier, in languages such as C++, a different compiler is needed for each type of CPU, whereas a Java compiler translates a Java source program
+into bytecode, the machine language of JVM, which is independent of any particular type of CPU.
+
+6. In general, to successfully run a Java program, the bytecode for classes used in the program must be connected. The program that automatically does this in Java
+is known as the loader.
+
+NOTE: I noticed that I don't want to be a web developer anymore but to be a software developer like making mobile applications, web applications and making high-class
+games.
+
+As a programmer, one of your primary concerns is with Step 1. That is, you must learn,understand, and master the rules of the programming language to create source
+programs.Programs are developed using an IDE. Well-known IDEs used to create programs in Java include JBuilder (from Borland), CodeWarrior (Metrowerks), and jGrasp
+(Auburn University). These IDEs contain an editor to create the program, a compiler to check the program for syntax errors, a program to load the object codes of the
+resources used from the IDE, and a program to execute the program. These IDEs are also quite userfriendly. When you compile your program, the compiler not only
+identifies the syntax errors, but also typically suggests how to correct them.
+
+Other software that can be used to develop Java programs include Eclipse, TextPad,
+JCreator, BlueJ, and DrJava.
+
+7.	public class ASimpleJavaProgram
+{
+public static void main(String[] args)
+{
+System.out.println("My first Java program.");
+System.out.println("The sum of 2 and 3 = " + 5);
+System.out.println("7 + 8 = " + (7 + 8));
+}
+}
+
+	System.out.println("My first Java program.");
+Typically, anything in double quotation marks, called a string, evaluates to itself, that is, its value is the string itself. Therefore, the statement causes the
+system to display the following line on the screen:
+My first Java program.
+
+	System.out.println("The sum of 2 and 3 = " + 5);
+In this output statement, the parentheses contain the string "The sum of 2 and 3 = ", + (the plus sign), and the number 5. Here the symbol + is used to concatenate
+(join) the operands. In this case, the system automatically converts the number 5 into a string, joins that string with the first string, and displays the following
+line on the screen:
+The sum of 2 and 3 = 5
+
+	System.out.println("7 + 8 = " + (7 + 8));
+In this output statement, the parentheses contain the string "7 + 8 = ", + (the plus sign), and the expression (7 + 8). In the expression (7 + 8), notice the
+parentheses around 7 + 8. This causes the system to add the numbers 7 and 8, resulting in 15. The number 15 is then converted to the string "15" and then joined
+with the string "7 + 8 = ". Therefore, the output of this statement is:
+7 + 8 = 15
+
+8. The following are some of the special symbols:
++ - * /
+. ; ? ,
+<= != == >=
+
+The first row includes mathematical symbols for addition, subtraction, multiplication, and division. The second row consists of punctuation marks taken from English
+grammar. Note that the comma is a special symbol. In Java, commas are used to separate items in a list. Semicolons are used to end a Java statement. The third row
+contains symbols used for comparisons. Note that a blank, which is not shown above, is also a special symbol. You create a blank symbol by pressing the spacebar
+(only once) on the keyboard. The third row consists of tokens made up of two characters, but which are regarded as single symbols. No character can come between the
+two characters in these symbols, not even a blank.
+
+9. I learned that if you have to find the square of number in java it is supposed to be in 'double' keyword and the syntax for square is 'Math.pow'
+
+   Example:
+
+	import java.util.Scanner;
+	public class squareofanumber {
+	public static void main (String[]args) {
+	
+	double z;
+	
+	Scanner in = new Scanner (System.in);
+	
+	System.out.println("Enter a number:" );
+	z = in.nextInt();	
+	z = Math.pow(z,2);
+	System.out.println("The square of a number:" + z);
+	
+}
+}
+
+10. Out of topic fact:
+	tendons connect from muscle to bone7
+	ligaments connect from bone to bone, and
+	fascia connect from muscle to muscle
+
+11. Out of topic fact:
+	There are 3 kinds of friendship according to Aristotle:
+	1. Useful Friendhip
+	2. Pleasant Friendship
+	3. Virtuous Friendship

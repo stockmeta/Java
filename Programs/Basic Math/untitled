@@ -1,0 +1,11 @@
+import java.util.Scanner {
+	public class squareofanumber {
+	public static void main (String[]args);
+	
+	double z = 60;
+	
+	double z = Math.pow(z,2);
+	
+}
+}
+	
